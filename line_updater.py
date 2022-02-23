@@ -1,0 +1,11 @@
+file = open("file2.txt")
+f = file.readlines()
+f.pop()
+f.append("4")
+print(f)
+file.close()
+file = open ("file2.txt","w")
+for i in f:
+    print(i)
+    file.write(i)
+file.close()
