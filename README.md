@@ -1,1 +1,1 @@
-# python_class
+# python basics
